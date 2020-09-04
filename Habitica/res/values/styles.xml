@@ -658,6 +658,15 @@
         <item name="hintTextAppearance">@style/TaskFormHintTextAppearance</item>
     </style>
 
+    <style name="TaskFormTextInputLayoutAppearanceTheme">
+        <item name="colorControlNormal">@color/red_50</item>
+        <item name="colorControlActivated">@color/blue_50</item>
+        <item name="colorControlHighlight">?attr/colorPrimary</item>
+
+
+    </style>
+
+
     <style name="TaskFormHintTextAppearance">
         <item name="colorPrimary">?attr/colorPrimaryText</item>
         <item name="android:textSize">12sp</item>
@@ -731,5 +740,7 @@
     <style name="PreferenceThemeOverlay.v14" tools:override="true">
         <item name="android:background">@color/white</item>
     </style>
+
+
 
 </resources>
